@@ -1,0 +1,31 @@
+.books-page {
+  padding: 2rem;
+
+}
+
+.book-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.5rem;
+}
+
+.book-card {
+  background: #f9f9f9;
+  border-radius: 8px;
+  overflow: hidden;
+  text-align: center;
+  padding: 1rem;
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.2s;
+}
+
+.book-card:hover {
+  transform: scale(1.05);
+}
+
+.book-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+}

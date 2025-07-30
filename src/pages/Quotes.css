@@ -1,0 +1,38 @@
+.quotes-container {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+
+  min-height: 100vh;
+}
+
+.quotes-heading {
+  text-align: center;
+  color: #4b0082;
+  padding-top: 60px;
+}
+
+.quotes-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.quote-card {
+  background-color: white;
+  border-radius: 12px;
+  padding: 1rem 1.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+.quote-text {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.quote-book {
+  font-size: 0.95rem;
+  color: #666;
+}
